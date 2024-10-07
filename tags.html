@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
 
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby Dick</a>
+    </div>
+
+    <header>
     <h1>Important HTML tags</h1>
+</header>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
     <img src="images/astronaut_tagged.jpg" alt="Tagged Astronaut">
   </a>
 
     <p>
-      This page is designed as a quick reference for some of the common tags
+      <span>This page is designed </span> as a quick reference for some of the common tags
       covered in <a href="https://learnenough.com/html"><em>Learn
       Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll
       learn how to make HTML <em>tables</em> via <code>table</code> and
@@ -25,8 +33,11 @@
       the most important ones.
     </p>
 
+    <header>
     <h2>Block Elements</h2>
+</header>
 
+<div>
     <table>
       <tr>
         <th>Tag</th>
@@ -63,10 +74,33 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>in rank-order</td>
+      </tr>
+
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>the order isn't important</td>
+      </tr>
+
+      <tr>
+        <td><code>li</code></td>
+        <td>list item/list element</td>
+        <td>the result will be numbered in sequence</td>
+      </tr>
+
     </table>
+</div>
 
+    <header>
     <h2>Inline Elements</h2>
+</header>
 
+<div>
     <table>
       <tr>
         <th>Tag</th>
@@ -114,8 +148,8 @@
         </td>
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
       </tr>
-
     </table>
+</div>
 
    </body>
 </html>
